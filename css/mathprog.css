@@ -1,0 +1,277 @@
+
+table {
+	font-family: monospace;
+	font-size: 10pt;
+}
+
+table, th,td {
+	font-family: monospace;
+	font-size: 10pt;
+}
+td {
+	width: auto;
+	min-width: 200px;
+}
+td+td {
+	min-width: 50px;
+	width: auto;
+}
+
+.mathprog, .exercise {
+	visibility: hidden;
+	display: none;
+}
+
+.model-content {
+	background: #fff; 
+	border-radius:20px;
+}
+
+.modal-content {
+	width: 100%; 
+	background: #fff; 
+	border-radius:20px;
+}
+
+.modal-header {
+	padding-top: 10px;
+}
+
+.container-fluid {
+	background:#003b7b;
+}
+
+.tabbable {
+	width: 100%; 
+	margin-top:0px; 
+	margin-bottom:0px;
+}
+
+.bottom-panel{
+	margin-top:3px; 
+	margin-bottom:3px;
+}
+
+.navbar-brand {
+	color:#ffffff !important;
+}
+
+#dashboardPanel{
+	min-height: 380px;
+}
+
+#dashboardTable {
+	width: 100%;
+}
+
+/* #outputTab {
+	min-height: 380px;
+} */
+
+.tab-pane {
+	min-height: 380px; width: 100%;
+}
+
+#logContent{
+	width: 730px;min-height: 200px;
+}
+
+#divModelFileName {
+	margin-bottom: 10px;
+}
+
+#btnBar {
+	width:100%;
+	margin-top:1px;
+}
+.btn-group {
+	float:left;
+}
+
+#inputOpenModel {
+	display: none;
+}
+
+#btnSolveModel {
+	float: right;
+}
+
+#messagePanel{
+	min-height:38px;
+}
+
+#message {
+	margin-top: 18px; 
+	margin-right: 0px;
+}
+
+#content{
+	clear: left;
+	width: auto;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#footer {
+	text-align: right;
+	padding: 20px;
+}
+
+body {
+	background: #f5f5f5;
+}
+
+.NomeArquivo {
+	margin-bottom: 2px;width: 20%;
+	border-top: none;
+	border-left: none;
+	border-color: #00000040;
+	border-right: none;
+}
+
+.bordaRedonda {
+	border-radius: 4px !important;
+	border-top: 0px;
+	border-left: 1px;
+	margin-right: 10px;
+	border-bottom: 1px;
+
+}
+.modal-body-example{
+	height: 450px; 
+	overflow: auto;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: scroll;
+	margin: auto;
+	max-width: auto;
+}
+
+table,
+th,
+td {
+	font-size: 13px;
+}
+
+td {
+	width: auto;
+	min-width: 200px;
+}
+
+td+td {
+	min-width: 50px;
+	width: auto;
+}
+
+.mathprog,
+.exercise {
+	visibility: hidden;
+	display: none;
+}
+
+#linkTextArea {
+	height: 80px;
+	width: 490px;
+}
+
+#content {
+	clear: left;
+	width: 750;
+	padding-top: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#output {
+	font-family: Consolas, Monaco, "Courier New", monospace;
+	font-size: 13px;
+	width: 100%;
+}
+
+#log {
+	font-family: Consolas, Monaco, "Courier New", monospace;
+	font-size: 13px;
+	width: 100%;
+}
+
+#instructionContent {
+	width: 100%;
+}
+
+#instructionContent>h1 {
+	font-size: 20pt;
+}
+
+#instructionContent>h2 {
+	font-size: 18pt;
+}
+
+#instructionContent>h3 {
+	font-size: 16pt;
+}
+
+#instructionContent>h4 {
+	font-size: 14pt;
+}
+
+#instructionContent>h5 {
+	font-size: 12pt;
+}
+
+#instructionContent>h6 {
+	font-size: 10pt;
+}
+
+#instructionContent>blockquote {
+	font-size: 10pt;
+}
+
+pre {
+	font-family: Consolas, Monoco, "Courier New";
+	font-size: 13px;
+	line-height: 1.45em;
+}
+
+.CodeMirror {
+	font-size: 13px;
+	font-family: Consolas, Monaco, "Courier New", monospace;
+	line-height: 1.45em;
+	width: 100%;
+	margin: 0px;
+	border: solid 1px;
+}
+
+#btnModalConfirmClearAll {
+	margin-right:10px;
+}
+
+
+#resources-menu {
+	background: #003b7b; color: #dddddd;
+}
+
+#examples-menu {
+	background: #003b7b; color: #dddddd;
+}
+
+#models-menu {
+	background: #003b7b; color: #dddddd;
+}
+
+#menuAbout {
+	background: #003b7b; color: #dddddd;
+}
